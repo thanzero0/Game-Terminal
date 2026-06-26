@@ -1,20 +1,7 @@
-# Hacker Terminal: Fake System Breach 💻
+# Hacker Terminal: Simulated System Breach 💻
 
-A lightweight, minimalist "Hacker Terminal" game. Experience a simulated system breach where you interact via terminal commands (like `scan` and `decrypt`) and solve simple logic puzzles to progress.
+Hacker Terminal is an interactive command-line simulation game where the player takes on the role of an agent attempting to breach a multi-layered security system. The entire experience takes place inside a realistic-looking terminal interface, complete with scanline effects, a blinking cursor, and a dark hacker-themed aesthetic that makes it feel like something straight out of a cybersecurity thriller. Players type real commands — like `scan` to discover network targets and `decrypt` to attempt breaking into them — and the game responds with immersive system messages, progress bars, and puzzles that must be solved to advance through each security layer.
 
-## 🌟 Features
+The game features three progressively harder levels, each guarding a different part of the system. The first level has the player bypass a firewall with a basic number sequence, the second cracks a database encryption layer using a Fibonacci pattern, and the final challenge requires converting binary to decimal to gain root kernel access. Beyond the main breach storyline, the terminal also includes a fully functional mini file system where players can navigate directories with `ls`, `cd`, and `pwd`, create new folders with `mkdir`, and even write and save text files using a built-in `ed` text editor. It's a surprisingly complete terminal experience packed into a single-page web app.
 
-- Immersive command-line interface simulation
-- Interactive terminal commands
-- Built-in logic puzzles to solve
-- Dark, hacker-themed aesthetic
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-
-## 🚀 Getting Started
-
-Launch `index.html` in a web browser to initiate the breach sequence.
+Everything is built with vanilla HTML, CSS, and JavaScript, meaning it runs instantly in any modern browser without installation. The scanline overlay, green-on-black text rendering, and typing feedback are all done with pure CSS and DOM manipulation, keeping the project lightweight while still delivering an authentic retro-terminal vibe. Hacker Terminal was built as a fun way to make logic puzzles feel more exciting by wrapping them in a narrative, and it works — solving that final binary puzzle and seeing "ROOT ACCESS GRANTED" hit differently when the whole screen looks like you're actually hacking into something.
